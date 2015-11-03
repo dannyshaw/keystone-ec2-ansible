@@ -1,0 +1,7 @@
+---
+
+- name: Launch adequatelyadrift.com
+  hosts: web1
+  user: ubuntu
+  roles: 
+    - keystonesite

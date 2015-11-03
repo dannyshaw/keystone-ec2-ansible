@@ -1,0 +1,8 @@
+---
+
+- name: Backup Keystone Site
+  hosts: web1
+  user: ubuntu
+  tasks: 
+    - name: Perform backup
+      command: "sh /home/{{access_user}}/bin/backup.sh"
